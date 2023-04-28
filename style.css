@@ -1,5 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  font-size: 12;
+  color: black;
+  line-height: 1.4;
 }
 
 aside {
@@ -7,7 +11,7 @@ aside {
 }
 
 #menu_links {
-  margin: 70px;    
+  margin: 70px;
 }
 
 #menu_links li {
@@ -19,7 +23,7 @@ aside {
   position: fixed;
 }
 
-#minha_foto{
-  border: 5px solid blue;
+#minha_foto {
+  border: 5px solid olive;
   border-radius: 10px;
 }
