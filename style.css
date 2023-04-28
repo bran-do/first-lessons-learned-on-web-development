@@ -10,6 +10,17 @@ aside {
   padding: 10px;
 }
 
+.lado-esquerdo {
+  display: inline-block;
+  width: 1000px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 200px;
+  float: right;
+}
+
 #menu_links {
   margin: 70px;
 }
@@ -24,6 +35,6 @@ aside {
 }
 
 #minha_foto {
-  border: 5px solid olive;
+  border: 5px solid blue;
   border-radius: 10px;
 }
