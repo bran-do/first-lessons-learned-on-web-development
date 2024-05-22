@@ -4,6 +4,7 @@ body {
   font-size: 12;
   color: black;
   line-height: 1.4;
+  padding: 0 10px;
 }
 
 header {
@@ -31,6 +32,10 @@ header h1 {
   flex-direction: column;
 }
 
+#lado-esquerdo p {
+  text-align: justify;
+}
+
 #bio {
   width: 50%
 }
@@ -40,6 +45,10 @@ header h1 {
   width: 200px;
   align-items: center;
   text-align: end;
+}
+
+#curriculo h1 {
+  margin-bottom: 0;
 }
 
 /*
