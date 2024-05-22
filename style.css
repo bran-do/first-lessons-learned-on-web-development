@@ -6,8 +6,40 @@ body {
   line-height: 1.4;
 }
 
+header {
+  margin: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu a {
+  padding-right: 6px;
+}
+
 #textos-e-licoes {
   display: flex;
+}
+
+#lado-esquerdo {
+  display: flex;
+  flex-direction: column;
+}
+
+#bio {
+  width: 50%
+}
+
+#lado-direito {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  text-align: end;
 }
 
 /*
