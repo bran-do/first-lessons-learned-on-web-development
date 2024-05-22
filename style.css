@@ -20,7 +20,7 @@ header h1 {
 }
 
 #menu a {
-  padding-right: 6px;
+  padding-right: 8px;
 }
 
 #textos-e-licoes {
@@ -42,45 +42,19 @@ header h1 {
 
 #lado-direito {
   display: flex;
-  width: 200px;
+  width: 250px;
   align-items: center;
   text-align: end;
 }
 
+#curriculo {
+  margin-bottom: 25px;
+}
+
 #curriculo h1 {
-  margin-bottom: 0;
+  margin-bottom: 2px;
 }
 
-/*
-aside {
-  padding: 10px;
-}
-
-.lado-direito {
-  display: inline-block;
-  width: 1000px;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-  width: 200px;
-  float: right;
-}
-
-#menu_links {
-  margin: 70px;
-}
-
-#menu_links li {
-  display: inline;
-}
-
-#cabecalho {
-  top: 0;
-  position: fixed;
-}
-
-#minha_foto {
-  border: 5px solid blue;
-  border-radius: 10px;
+#curriculo_tabela th {
+  padding-right: 10px;
 }
